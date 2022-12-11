@@ -22,11 +22,11 @@ public:
 
 	double getSideSurfaceArea() const;
 
-	virtual double getSurfaceArea() const;
+	virtual double getSurfaceArea() const override;
 
-	virtual double getVolume() const;
+	virtual double getVolume() const override;
 
-	virtual string getObjectName() const;
+	virtual string getObjectName() const override;
 
 	friend ostream& operator<< (ostream& o, const RightSquarePyramid& p);
 
